@@ -1,0 +1,178 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Welcome to Girish's Homepage</title>
+		<style>
+			html {
+				background: #e9eaed;
+			}
+			body {
+				font-family: arial, sans-serif;
+				margin: 20px auto 20px;
+				padding: 20px 20px 40px;
+				background: white; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				overflow-y: scroll;
+				overflow-x: auto;
+				width: 960px;
+				border: 1px solid #bbb;
+				border-radius: 3px;
+				line-height: 1.1em;
+			}
+			td.prog_desc {
+				text-align:left; 
+				cursor: default;
+				color: darkgoldenrod;
+			}
+			td.prog_desc:after {
+				content: ":";
+			}
+			td {
+				border-bottom: 1px solid #ddd;
+			}
+			.main {
+				cursor: default;
+				width: 940px;
+				font-size: .8em;
+				padding: 20px;
+				margin: 0 auto;
+				color: black;
+				min-height: 60em;
+			}
+			.contents {
+				width: 600px;
+				margin: 0 0 20px auto;
+				position: relative;
+			}
+			p {
+				margin: 0;
+				padding: 5px 0;
+			}
+			table.prog_listing {
+				font-size: 100%;
+				color: black;
+			}
+			table.prog_listing td {
+				padding: 10px;
+			}
+			table.prog_listing td.prog {
+				width: 14em;
+			}
+			a {
+				color: steelblue;
+				text-decoration: none;
+				font-weight: bold;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			img.photu {
+				width: 300px;
+				position: absolute;
+				box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.6);
+				opacity: .9;
+			}
+			tr.others {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<a href="https://www.youtube.com/watch?v=2OfyXtzFI24">
+				<img class="photu" alt="" src="me.jpg">
+			</a>
+			<div class="contents">
+					<p>Hi !</p>
+					My name is Girish. I am a software developer currently living in New Delhi, India.<br>
+					<div style="color:#555;display:inline-block; position:relative;">The first time i laid my hands on a computer was when i got into college	<div style="position: absolute; height: inherit; top: 0px; width: inherit; background: -linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));background: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)); background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)); background: -moz-linear-gradient(left center , rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)) repeat scroll 0px 0px transparent;">
+								&nbsp;
+							</div>
+					</div>
+					<button id="show-story" style="background: transparent; color: steelblue; font-weight:bold;border:0;cursor: pointer;margin: 5px 0;padding: 0 2px;" onclick="toggleStory();">
+							...
+					</button>
+					<div id="story" style="color:#555; opacity:0; transition: opacity 1000ms ease; display: none;"><p>The first time i laid my hands on a computer was when i got into college. It wasn't love at first sight though. And college didn't work for me. But the thing that sparked my interest in computers was Unix/Linux, which i pursued intently for a while. The fascination with Unix continued until one day...
+					while reading a book on Perl scripting i came across an exercise problem to write a script that generates prime numbers. Easy. But the second part of the problem was to make the script run as fast as possible. So, i translated my Perl script into C, tried different algorithms, studied other peoples programs, read about PC CPU-architechture, Asm, optimization and so on. After about a month's effort i got it to compute the primes upto one billion in under 9 secs on my old 2Ghz Pentium4 machine. You can download the program from the link below. It was my initiation into programming and a fantastic learning experience.	
+					<p>Aside from programming i have a passion for motorcycle racing.
+					In my free time or sometimes while coding i like listening to music mostly progressive rock (Arena, Karnivool, Mutemath, Ozric Tentacles...).</p>
+					<p \>
+					</div>
+					<p style="margin-top: 10px;">Here are some of the programs that i've developed:</p>
+					<p>	
+						<table cellspacing="0" cellpadding="0" class="prog_listing">
+							<tbody>
+								<tr>
+									<td class="prog_desc">A high performance Data-table implementation to view and explore large tablular data in the browser with an advanced spreadsheet-like UI</td><td class="prog"><a target="_blank" href="http://girish_rao.users.sourceforge.net/grid-o-matic/">Grid-o-Matic</a><br></td>
+								</tr>
+								<tr>
+									<td class="prog_desc">Spellathon word puzzle</td> <td class="prog"><a target="_blank" href="http://sourceforge.net/projects/spellathon/">Spellathon</a><a target="_blank" style="margin-left: 20px;" href="http://spellathon.sourceforge.net/">(Web Demo)</a></td>
+								</tr>
+								<tr>
+									<td class="prog_desc">1-click IGNOU BCA/MCA percentage calculator</td> <td class="prog"><a target="_blank" href="http://sourceforge.net/projects/ignourescalc">IGNOUResCalc</a><br></td>
+								</tr>
+								<tr>
+									<td style="border:0" class="prog_desc">Fast CPU cache optimized Prime number generator</td> <td style="border:0" class="prog"><a href="http://girish_rao.users.sourceforge.net/primes.zip">Primes</a><br></td>
+								</tr>
+								<tr class="others">
+									<td style="border-top: 1px solid #ddd" class="prog_desc">Fdisk program to display info about the primary and logical partitions on a hard disk.</td> <td style="border-top: 1px solid #ddd" class="prog"><a href="http://girish_rao.users.sourceforge.net/fdisk.c">Fdisk</a><br></td>
+								</tr>
+								<tr class="others">
+									<td class="prog_desc">AVL Tree Library + AVL Tree demo program</td> <td class="prog"><a href="http://girish_rao.users.sourceforge.net/avl_demo.zip">AVLTree</a><a><br></a></td>
+								</tr>
+								<tr class="others">
+									<td class="prog_desc">Network usage monitor</td> <td class="prog"><a href="http://girish_rao.users.sourceforge.net/bwmon.zip">Bwmon</a><br></td>
+								</tr>
+								<tr class="others">
+									<td class="prog_desc">Prime number generator in x86 asm</td> <td class="prog"><a href="http://girish_rao.users.sourceforge.net/primegen.S">AsmPrimes</a><br></td>
+								</tr>
+								<tr class="others">
+									<td style="border:0" class="prog_desc">Bin packing files</td> <td class="prog" style="border:0"><a href="http://girish_rao.users.sourceforge.net/binPack.sh">Binpack</a><br></td>
+								</tr>
+							</tbody>
+						</table>
+					</p>
+					<div style="color:#555;display:inline-block; width: 5em; position:relative;">	
+						More stuff 
+						<div style="position: absolute; height: inherit; top: 0px; width: inherit; background: -linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));background: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)); background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)); background: -moz-linear-gradient(left center , rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)) repeat scroll 0px 0px transparent;">
+								&nbsp;
+						</div>
+					</div>
+					<button id="show-others" style="background: transparent; color: steelblue; font-weight:bold;border:0;cursor: pointer;margin: 5px 0;padding: 0 2px;" onclick="toggleOthers();">
+								&raquo;
+					</button>
+					<br>
+					<br>
+					<p>	
+						If you wish to contact me you can send me a <a href="mailto:girish.rao.dev@gmail.com">mail</a>.
+					</p>
+			</div>		
+		</div>		
+		<p style="color: silver;font-size:small;text-align:right;position:relative;bottom:-30px;padding-right: 10px;">	
+			&copy; 2014 Girish Rao
+		</p>
+	</body>
+</html>
+<script type="text/javascript" src="grid-o-matic/3p-bundle.js"></script>
+<script>
+	function toggleStory() {
+		var show = document.getElementById('show-story');
+		var story = document.getElementById('story');
+		$(story).slideDown(500);
+		story.style.opacity = 1;
+		show.previousElementSibling.style.display = 'none';
+		show.style.display = 'none';
+	}
+	function toggleOthers() {
+		var others = document.getElementById('show-others');
+		others.previousElementSibling.style.display = 'none';
+		others.style.display = 'none';
+		$('table.prog_listing tr.others').fadeIn();
+	}
+	$('img.photu').click(function(e) {
+		location.href=e.target.src;
+	});
+</script>
